@@ -1,0 +1,13 @@
+#step 1: Enter a String
+#step2: create a function toreverse a string using lambda expression
+#step3:Reverse string using fucntion generated
+#step4:Compare both strings(Original and Reversed string)
+#if they are same then print palindrome else print not palindrome
+
+s=input("enter a string")
+strrev=lambda  str:str[::-1]
+reveresedstr=strrev(s)
+if s==reversedstr:
+     print("string is reversed")
+else:
+     print("string is not palindrome)
