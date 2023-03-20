@@ -1,0 +1,10 @@
+n!=n*(n-1)!
+  =n*(n-1)*(n-2)!
+  =n*(n-1)*(n-2)*(n-3)!
+  
+  
+  #for example if we want to calculate factorial of 4
+   4!=4*3!
+     =4*3*2!
+     =4*3*2*1!
+     =4*3*2*1
