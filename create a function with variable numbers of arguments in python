@@ -1,0 +1,10 @@
+def add(*nos):
+    sum=0
+    for x in nos:
+        sum=sum+x
+    print(sum)
+l1=(5,7,8)
+l2=(1,5,9,7,6,5,8)
+add(5,7,8)
+add(1,5,9,7,6,5,8)
+  
