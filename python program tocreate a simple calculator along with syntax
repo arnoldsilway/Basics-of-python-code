@@ -1,0 +1,25 @@
+# syntax to create simple calculator
+def function_name():
+    block of code
+    return variable_name
+ variable name=function name()
+ 
+ 
+ #code for simple calculator
+ def calculator():
+    a=int(input("enter a:")
+    b+int(input("enter b:")
+    op=input("enter operation to be performed :")
+    if op=='+':
+        print(a+b)
+    elif op=='-'
+        print(a-b)
+    elif op=='*'
+        print(a*b)
+    elif op=='/'
+       print(a/b)
+    else:
+         print("Invalid operation")
+     n= calculator()
+     print(n)
+    
