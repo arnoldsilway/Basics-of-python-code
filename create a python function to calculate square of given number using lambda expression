@@ -1,0 +1,3 @@
+lambda paramter: expression
+squarefun = lambda n:n*n
+squarefun(4)
