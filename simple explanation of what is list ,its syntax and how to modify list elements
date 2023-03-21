@@ -1,0 +1,21 @@
+#DEFINATION:
+List is collection of mulitple values and values can be of different types  
+
+#creating list 
+1) List out the values in sqaure bracket separated by comma
+
+example- l=[3,5,-7,11]
+        name=["aa","bb","cc"]
+        l1=[3,4,5,"bb".person]
+        
+#Modification of list elements:
+      Syntax:
+      listobject[index]=new value
+         l1[1]=100
+         
+         
+2) Use list () constructor function
+ Name of constructor function is same as constructor class:
+   
+   l=list("aa",3"bb",4.5)
+         
