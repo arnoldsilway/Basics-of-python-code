@@ -1,0 +1,14 @@
+#GENERATOR
+ 
+ Python provides a generator to create your own iterator function
+ A generator is a special type of function which doesnot return a single value,instead ,it returns an iterator object with sequence of values.
+ In generator function a yield statement is used rather than return statement
+ 
+ 
+ #SYNTAX:
+        def simplegeneratorFun():
+          yield1
+          yield2
+          yield3
+       for value in simplegeneratorFun():
+        print(value)
