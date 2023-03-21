@@ -1,0 +1,13 @@
+#SYNTAX:
+         stringobject,find(substring)
+         
+  
+  
+ for example:  
+             s.find("come")
+             s="welcome to DYPIU"
+             sub="come"
+             if s find(sub)::-1:
+                 print("'come'is not present in string")
+             else:
+                  print(" 'come'is present in string)
