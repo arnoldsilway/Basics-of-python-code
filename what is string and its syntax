@@ -1,0 +1,12 @@
+#STRING:
+        String is sequence of character data given by str and delimited by Str
+        
+#SYNTAX:
+      str = "Hi Python !"    
+#There are different types of methods used in string
+FOR EXAMPLE:
+1)len()
+2)lower()
+3)upper()
+4)title()
+and soo onn.....................
