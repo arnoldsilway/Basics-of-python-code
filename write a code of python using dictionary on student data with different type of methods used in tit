@@ -1,0 +1,18 @@
+student_data={'stud1':{'name':''aa','address':'pune','age':'20','gender':'F'}
+
+             {'stud2':{'name':''bb','address':'pune','age':'21','gender':'M'}
+             
+             {'stud3':{'name':''cc','address':'mumbai','age':'20','gender':'F'}
+             
+             }
+             print(student_data)
+           
+           
+# Display information of student 2 only 
+ 
+stud_object['student2']
+
+#Get information of student from pune
+   For key,value in stud_data.items():
+      if val['address']='pune',
+      print(key)
