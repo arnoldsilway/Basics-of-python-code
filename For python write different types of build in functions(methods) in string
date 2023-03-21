@@ -1,0 +1,27 @@
+# BUILD IN FUNCTIONS
+1) len() function: 
+Calculates length of string
+ for example:
+          s='hello'
+          len(s) gives 5
+      
+2)lower():
+Converts a string into lower case
+for example: 
+           s='Hello'
+           s.lower() gives 'hello'
+   
+3) upper():
+Converts a string into upper case
+for example:
+             s='Hello'gives 'HELLO'
+
+4)title(): 
+Makes the first letter in each word upper case
+for example: 
+           s='hi all' gives 'Hi All'
+
+5)capitalize():
+Upper case the first letter in string
+for example:
+            s.capitalize() gives 'Hi all'   
