@@ -1,0 +1,16 @@
+student_data={'stud1':{'name':''aa','address':'pune','age':'20','gender':'F'}
+
+             {'stud2':{'name':''bb','address':'pune','age':'21','gender':'M'}
+             
+             {'stud3':{'name':''cc','address':'mumbai','age':'20','gender':'F'}
+             
+             }
+             print(student_data)
+             
+       
+# ADD new item to dictionary
+ 
+ 
+dictobject['new key']=value
+stud_data['student']={'name':''dd','address':'pune','age':'22','gender':'F'}
+print(stud_data)
