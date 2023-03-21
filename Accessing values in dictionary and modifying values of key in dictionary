@@ -1,0 +1,16 @@
+ student_data={'name':'aa','address':'temple','age':'20',
+  'gender':'M','classenrolled':'FY','marks':'90'}
+  print(student_data)
+  
+  
+  #Accessing values in dictionary:values are accessed by keyname
+  
+  For example:
+              dictobject['keyname']
+              print(student_name['age'])
+              
+           
+ Modifying values of keys in dictionary
+ 
+ dictobject['keyname']=newvalue
+ student_data['address']=mumbai
