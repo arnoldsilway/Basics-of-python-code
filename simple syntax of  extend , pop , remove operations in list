@@ -1,0 +1,13 @@
+1)extend() function
+Adds elements of the second list to the first list individually
+ syntax:
+     l.extend(l1)
+2)pop()
+Removes element from the list
+Syntax:
+      listobject.pop(index)
+      l=[3.5,9,2,"aa"]
+      l.pop(2)
+3) Remove() function
+   Syntax:
+         listobject.remove(element name)
