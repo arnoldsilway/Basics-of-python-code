@@ -1,0 +1,7 @@
+student_data={'name':['aa','bb','cc','dd','ee',...................']
+                        'address':['pune','pune','mumbai','...................']
+                        'age':[20,19,21,22,21,19,.......]
+                        'gender':['F','M','F','F'.......']
+                        'classenrolled':['Btech CSE','BCA',...................]
+                        'marks':[90,50,56,98,32,..............]
+print(student_data)
