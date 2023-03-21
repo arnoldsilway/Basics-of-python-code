@@ -1,0 +1,20 @@
+def decorator (fun):
+    def wrapper (*args):
+                     print("function execution started")
+                     fun(*args)
+                     print("function execution finished")
+                     return wrapper
+       
+       
+@decorator
+def add(n1,n2):
+
+                    print(n1+n2)
+ 
+  
+@decorator
+def even_odd(n):
+    if n%2==0:
+                print("even")
+    else:
+                print("odd")  
