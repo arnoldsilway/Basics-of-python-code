@@ -1,0 +1,22 @@
+1) Find the no of values present in the list len() function
+use len()function
+syntax:
+      len(list object)
+      example: l=[1,5,19]
+      len(l)
+2)Adding an element to the list
+ use .append()function
+ Syntax:
+       list object.append(new value)
+       example:
+             l=[3,5,11]
+             add 20 to the end of l
+             l.append(20)
+             l=[3,5,11,20]
+3) Inserting values in between 
+use Insert()function
+Syntax:
+       listobject.insert(index,value)
+       l.insert(2,100)
+ 
+             
