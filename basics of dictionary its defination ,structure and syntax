@@ -1,0 +1,14 @@
+#Dictionary: 
+""we use {} for dictionary""
+Dictionary is collection which is ordered ,changeable and do not allow duplicates
+1) It stores data in terms of (key,value)pairs 
+keys-are unique, they cant be duplicate
+values-can be duplicate
+
+#STRUCTURES:
+dictoject={'key':'vol1','key','vol2',......................................................................'keyn':'voln'
+
+one more example can be,
+  student_data={'name':'aa','address':'temple','age':'20',
+  'gender':'M','classenrolled':'FY','marks':'90'}
+  print(student_data)
