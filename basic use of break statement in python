@@ -1,0 +1,13 @@
+# To remove square root of number with break statment
+
+
+import math
+choice="yes"
+while choice=="yes"
+no=input("enter a number")
+if no=" "or int(n)<0
+break
+else: 
+    print(math.sqrt(int(n)))
+    choice=("Do you want to repeat ? yes/no")
+    
