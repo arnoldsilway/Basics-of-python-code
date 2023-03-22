@@ -1,0 +1,10 @@
+print("How many elements to store in array?",end=" ")
+n=input()
+print("\n enter",n,"elements":,end=" ")
+n=int(n)
+for i in range (n):
+    element =input()
+    arr.append(element)
+    print("\n The list is:")
+    for i in range(n):
+    print(arr[i],end=" ")
