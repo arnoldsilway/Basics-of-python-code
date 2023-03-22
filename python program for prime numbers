@@ -1,0 +1,11 @@
+n=[22,13,7,65,44]
+ flag=true
+    for i in range(2,n):
+        if n%i==0:
+            flag=false
+            break
+            
+        if flag=true:
+            print("prime")
+    else:
+        print("not prime")
