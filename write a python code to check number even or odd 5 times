@@ -1,0 +1,7 @@
+for i in range(5):
+    no=int(input("enter a number"))
+    rem=no%2
+    if rem==0:
+        print("number is even")
+    else:
+            print("number is odd")
