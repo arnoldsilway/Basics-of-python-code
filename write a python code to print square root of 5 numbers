@@ -1,0 +1,8 @@
+import math
+for i in range(5):
+     n=input("enter a number")
+     if int(n)<0:
+     break
+           print(math.sqrt(int(n)))
+     else:
+          print("all iteratioh are over")
