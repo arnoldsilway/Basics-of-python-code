@@ -1,0 +1,7 @@
+for in in range(5):
+    
+    no1,no2=input("Enter tow numbers separated ny space").spilt()
+    no1=int(no1)
+    no2=int(no2)
+    print(no1+no2)
+    i=i+1
