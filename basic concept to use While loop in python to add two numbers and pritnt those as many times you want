@@ -1,0 +1,6 @@
+choice="yes"
+while choice=='yes'
+no1,no2=input("Enter two numbers seaprated by space").spilt()
+no1=int(no1)
+no2=int(no2)
+choice=("Do you want to repeat?,yes/no")
