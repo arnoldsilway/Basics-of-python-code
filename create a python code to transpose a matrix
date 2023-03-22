@@ -1,0 +1,13 @@
+A=[[11,12],
+   [13,14],
+   [15,16]]
+   
+results=[[0,0,0],
+         [0,0,0]]
+         
+for i inrange(len(A)):
+   forj in range(lena[0])):
+   result[j][i]=A[i][j]
+  
+for r in result:
+print(r)
