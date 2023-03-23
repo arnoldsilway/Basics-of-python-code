@@ -1,0 +1,26 @@
+# DEFINATION:
+
+It is used to filter out valuesin the collection for which the condition is "false",
+it gives the results for only true case
+
+# SYNTAX:
+
+filter(function_name,iterable)
+
+
+FOR EXAMPLE: Define a function to check if a given number is even or odd.
+Create a list of numbers.
+Fetch only even number from the number
+
+CODE:
+
+  def even_odd(x):
+  if x%2==0:
+  return x
+  
+  l=[13,10,12,18,19,15]
+  list(filter(even_Odd,l))
+  
+  
+  OUTPUT:
+  (10,12,18)  [BECAUSE EVEN CONDITION WAS GIVEN SO WE GOT THESE OUTPUTS]
