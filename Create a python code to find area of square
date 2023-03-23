@@ -1,0 +1,7 @@
+def areaOfSquare(s):
+    return s*s
+
+print("Enter the Side Length of Square: ", end="")
+l = float(input())
+a = areaOfSquare(l)
+print("\nArea = {:.2f}".format(a))
