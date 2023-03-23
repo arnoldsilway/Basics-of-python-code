@@ -1,0 +1,25 @@
+# DEFINATION:
+
+1) Decorator function is used to applty formatting styles to existingfunction
+It is used to add behavoiur to the existing function
+It is used to apply style or behaviour information to many different functions.
+
+
+
+SYNTAX:
+
+def decoratorname(Funame):
+ def wrapper()
+  apply style/ behaviour
+  funname()
+  apply style/behaviour
+  return wrapper
+  
+  
+  FOR EXAMPLE:
+  
+  def decorator(fun):
+    def wrapper(*args)
+    print("function execution started")
+    fun(*args)
+    print("function execution finished")
