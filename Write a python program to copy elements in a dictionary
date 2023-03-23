@@ -1,0 +1,10 @@
+mybooks={'Book':'Data Struture','year':'1813','author':'XYZ'}
+mybooks.copy()
+print(mybooks)
+
+
+
+NOTE: copy() method is used to copy elements in the dictionary
+Therefore output of the abover example will be
+OUTPUT:
+('Book':'Data Struture','year':'1813','author':'XYZ')
