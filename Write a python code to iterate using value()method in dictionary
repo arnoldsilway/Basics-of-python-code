@@ -1,0 +1,12 @@
+dictionary={'Book':'Data Structures','year':'1813','author':'XYZ'}
+for values in dictionary.values():
+print(values)
+
+
+NOTE:(ONLY VALUES WILL BE PRINTED NOT KEYS BECAUSE WE HAVE USED VALUE MAETHOD IN IT)
+FOR EXAMPLE:
+THE OUTPUT OF THE ABOVE CODE WILL BE
+OUTPUT:
+Data Structure
+1813
+XYZ
