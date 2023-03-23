@@ -1,0 +1,8 @@
+mybooks={'Book':'Data Structure','year':'1813','author':'XYZ'}
+mybooks.clear()
+print(mybooks)
+
+
+NOTE: clear()mathode is used to remove all elements from the dictionary
+So output of the above example will be
+OUtPUT:
