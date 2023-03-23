@@ -1,0 +1,24 @@
+# MEANING:
+It is used when you want to apply a single transform function to iterate elements.
+The iterable & function are passed as arguments
+It is used to map(apply) a given function to each elements in the collections
+
+
+# SYNTAX:
+
+map(function_name,iterable)
+
+FOR EXAMPLE: Define a function to check if the given number is even or odd.
+Create a list of numbers to check each number in the list for even odd using the function
+
+
+CODE:
+  
+  def even_odd(x):
+     if x%2==0:
+     return "even"
+     esle:
+     return "odd"
+     
+  l=[12,32,1,21,42,11]
+  list(map(even_odd,l))
