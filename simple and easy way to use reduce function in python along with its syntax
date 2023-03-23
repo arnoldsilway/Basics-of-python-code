@@ -1,0 +1,22 @@
+# DEFINATION:
+Reduce function is used to apply a given function to each value in the collection to produce a single output
+
+# SYNTAX:
+
+reduce(function_name,iterable)
+
+
+FOR EXAMPLE: Define a function for addition of two number.
+Create a list of number,make total of all the numbers in the list using the function
+
+import reduce(for this from functool import reduce)
+def add(n1,n2):
+   return(n1+n2)
+ l=[10,12,15,13,19]
+ return(add,l)
+   
+   
+
+
+OUTPUT:
+69  (ALL NUMBERS ARE ADDED AND THEREFORE WE GET THE OUTPUT AS '69')
