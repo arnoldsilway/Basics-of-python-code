@@ -1,0 +1,28 @@
+# Create list with intergers
+
+my_list=(5,12,1,23)
+print(my_list)
+
+# Create list with float integers 
+my_list=(5.1,102.2,1.2,2.3)
+print(my_list)
+
+# Create a list with string
+my_list=('R','B','G')
+print(my_list)
+
+# Create a list with Boolean
+my_list=(True,false.false)
+print(my_list)
+
+# Create alist with all four integer , boolean ,string & float
+
+my_list=(5,true,1.25,'R')
+print(my_list)
+
+# Concatenation of two list
+
+color_list1=('W','Y')
+color_list2=('R','B')
+c=color_list1+color_list2
+print(c)
