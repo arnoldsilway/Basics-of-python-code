@@ -1,0 +1,17 @@
+# Program to create a table
+
+
+num_rows = 5
+num_cols = 3
+
+# Outer loop
+for i in range(num_rows):
+
+    # Inner loop 
+    for j in range(num_cols):
+
+        
+        cell_value = (i+1) * (j+1)
+
+        print("{:4}".format(cell_value), end="")
+    print()
