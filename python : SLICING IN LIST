@@ -1,0 +1,46 @@
+# slice first two items in list
+
+color_list=["red","blue","green","yellow"]
+print(color_list[0:2])
+
+OUTPUT: 
+(red,blue)
+
+# Slice second item in list
+
+color_list=["red","blue","green","yellow"]
+print(color_list[1:2])
+
+OUTPUT:
+
+(blue)
+
+# Slice second and third item in list
+
+color_list=["red","blue","green","yellow"]
+print(color_list[1:-1])
+
+OUTPUT:
+
+(blue,green)
+
+#lice first three items in list
+
+color_list=["red","blue","green","yellow"]
+print(color_list[ :3])
+
+OUTPUT:
+(red,blue,green)
+
+
+#slice copy of list
+
+
+color_list=["red","blue","green","yellow"]
+print(color_list[ : ])
+
+OUTPUT:
+(red,blue,green,yellow)
+
+
+
