@@ -1,0 +1,18 @@
+
+def divide_numbers(a, b):
+    if b == 0:
+        return "Error: Division by zero"
+    else:
+        return a / b
+
+num1 = float(input("Enter the numerator: "))
+num2 = float(input("Enter the denominator: "))
+
+
+result = divide_numbers(num1, num2)
+
+
+if isinstance(result, str):
+    print(result)
+else:
+    print("The quotient of", num1, "and", num2, "is", result)
