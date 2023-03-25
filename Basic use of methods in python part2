@@ -1,0 +1,98 @@
+1) sort()
+
+color_list["red","blue","green","yellow"]
+print(color_list)
+color_list.sort(key=None,reverse=false)
+print(color_list)
+
+OUTPUT:
+['red', 'blue', 'green', 'yellow', 'blue']
+['blue', 'blue', 'green', 'red', 'yellow']
+
+2) copy()
+color_list=["red","blue","green","yellow"]
+print(color_list)
+color_list.copy()
+print(color_list)
+
+OUTPUT:
+['red', 'blue', 'green', 'yellow']
+['red', 'blue', 'green', 'yellow']
+
+3) pop()
+color_list=["red","blue","green","yellow"]
+print(color_list)
+color_list.pop(2)
+print(color_list)
+
+OUTPUT:
+['red', 'blue', 'green', 'yellow']
+['red', 'blue', 'yellow']
+
+4) clear()
+color_list=["red","blue","green","yellow"]
+print(color_list)
+color_list.clear()
+print(color_list)
+
+OUTPUT:
+['red', 'blue', 'green', 'yellow']
+[]
+
+5) sum()
+numbers=[1,2,8]
+sum=max(numbers)
+print(sum)
+
+OUTPUT:
+8
+
+6) max()
+
+numbers=[1,2,6,9]
+print(numbers)
+print(max(numbers))
+
+OUTPUT:
+[1, 2, 6, 9]
+9
+
+7) min()
+
+numbers=[1,2,6,9]
+print(numbers)
+print(min(numbers))
+
+OUTPUT:
+[1, 2, 6, 9]
+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
