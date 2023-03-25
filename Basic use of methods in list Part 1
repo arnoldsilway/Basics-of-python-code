@@ -1,0 +1,70 @@
+# Method #
+
+1) index()
+ color_list=["red","blue","green","yellow"]
+ print(color_list)
+ color_list.index("r")
+ 
+ OUTPUT:
+ 0
+ 
+ 2) append()
+color_list=["red","blue","green","yellow"]
+print(color_list)
+color_list.append("violet")
+print(color_list)
+ 
+ OUTPUT:
+ ['red', 'blue', 'green', 'yellow']
+ ['red','blue','green','yellow','violet']
+ 
+ 3) extend()
+  prime_number=[2,3,5]
+  number=[1,4]
+  number.extend(prime_number)
+  print(number)
+  
+  OUTPUT:
+ 
+ [1,4,2,3,5]
+ 
+ 4) remove()
+color_list=["red","blue","green","yellow"]
+print(color_list)
+color_list.remove("red")
+print(color_list)
+
+OUTPUT:
+['red', 'blue', 'green', 'yellow']
+['blue','green','yellow']
+
+5) insert()
+
+color_list=["red","blue","green","yellow"]
+print(color_list)
+color_list.insert(2,"violet")
+print(color_list)
+
+OUTPUT:
+['red', 'blue', 'violet', 'green', 'yellow']
+
+6) count()
+
+color_list=["red","blue","green","yellow","blue"]
+print(color_list)
+color_list.count('blue')
+print(color_list)
+
+OUTPUT:
+2
+
+7) reverse()
+
+color_list=["red","blue","green","yellow","blue"]
+print(color_list)
+color_list.reverse()
+print(color_list)
+
+OUTPUT:
+['red', 'blue', 'green', 'yellow', 'blue']
+['blue', 'yellow', 'green', 'blue', 'red'] 
