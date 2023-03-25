@@ -1,0 +1,14 @@
+import os
+
+
+current_dir = os.getcwd()
+
+
+new_folder = os.path.join(current_dir, "new_folder")
+
+
+try:
+    os.mkdir(new_folder)
+    print("New folder created successfully.")
+except OSError:
+    print("Creation of the new folder failed.")
