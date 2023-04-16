@@ -1,3 +1,0 @@
-evenodd=lambda n:"even" if n%2==0 else"odd"
- evenodd(7)
- evenodd(10)
