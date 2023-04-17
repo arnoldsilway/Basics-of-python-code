@@ -1,6 +1,0 @@
-add=lambda x,y:x+y
-no1=int(input("enter no1"))
-no2=int(input("enter no2"))
-    
-    sum=add(no1,no2)
-    print(sum)
