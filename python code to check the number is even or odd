@@ -1,9 +1,0 @@
-def even_odd(no):
-    if (no%2==0)
-    status='even'
-    else:
-        status='odd'
-        return status
-        n=int(input('enter number'))
-        status=even_odd(n)
-        print(n,'is',status)
